@@ -7,9 +7,7 @@
     <title>Регистрация</title>
     <link rel="stylesheet" href="reg.css">
 </head>
-<header>
-  <!--React добавить меню-->
-</header>
+<section id="header"><script src="../menu/navigation.js"></script></section>
 <body>
     <div class="container">
     <h2>Регистрация</h2>
@@ -26,8 +24,10 @@
         <input type="password" id="password" name="password" required>
       </div>
       <div class="form-group">
-        <button type="submit" class="button-1">Создать аккаунт</button>
+        <button type="submit" class="button-1" onclick="createUser()">Создать аккаунт</button>
       </div>
+      <script src="../queries/query.js">
+      </script>
     </div>
 </body>
 </html>

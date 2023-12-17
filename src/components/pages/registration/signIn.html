@@ -7,22 +7,22 @@
     <title>Вход</title>
     <link rel="stylesheet" type="text/css" href="reg.css">
 </head>
-<header>
-  <!--React добавить меню-->
-</header>
+<section id="header"><script src="../menu/navigation.js"></script></section>
 <body>
     <div class="container">
     <h2 id="sign">Войти в аккаунт</h2>
       <div class="form-group">
-        <label for="name">Имя:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
       </div>
       <div class="form-group">
         <label for="password">Пароль:</label>
         <input type="password" id="password" name="password" required>
       </div>
       <div class="form-group">
-        <button type="submit" class="button-1">Вход</button>
+        <button type="submit" class="button-1" onclick="signIn()">Вход</button>
+        <script src="../queries/query.js">
+        </script>
       </div>
     </div>
 </body>

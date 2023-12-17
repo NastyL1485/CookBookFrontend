@@ -1,26 +1,58 @@
-nav{
-    padding: 16px 0;
-    background-color: #4CAF50;
+.categories{
+    max-height: 57px;
+    padding: 16px;
+    background-color: #40B145;
 }
 
-nav ul{
+.categories ul{
+    vertical-align: middle;
     list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
-nav ul li{
+.categories ul li{
+    vertical-align: middle;
     display: inline-block;
     margin-left: 10px;
     text-transform: uppercase;
 }
 
-nav ul li :first-child{
+.categories ul li :first-child{
     margin-left: 0px;
 }
 
 a{
-    color: aliceblue;
+    color: #FFF3D4;
+    vertical-align: middle;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.026px;
+    letter-spacing: 0.49px;
     text-decoration: none;
+}
+p1{
+    color: #FFF3D4;
+    vertical-align: middle;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.026px;
+    letter-spacing: 0.49px;
+    text-decoration: none;
+}
+.sign_in_menu{
+    color: #FFF3D4;
+    vertical-align: middle;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.026px;
+    letter-spacing: 0.49px;
+    padding-left: 1036px;
 }
