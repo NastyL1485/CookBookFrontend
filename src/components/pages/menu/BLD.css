@@ -1,0 +1,232 @@
+/*BLD*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+
+html{
+    box-sizing:border-box;
+    height: 100%;
+    
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF3D4; 
+}
+
+.intro_wrap{
+    width: 909px;
+    height: 1064px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+}
+.intro_title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43.88px;
+    color: #FFA549;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    
+}
+
+.intro {
+    /* прижать футер к низу */
+    min-height: calc(100vh - 197px); 
+}
+
+
+/* рыжий */
+.cards {
+    height: 430px;
+    width: 909px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 169px;
+    
+
+}
+.card {
+    border-radius: 30px;
+    border: solid 2px;
+    border-color: #FFA549;
+    width: 370px;
+    height: 430px;
+}
+
+.card:hover {
+    opacity: .75;
+    box-shadow: 8px 8px 10px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.74px;
+    letter-spacing: 0.035em;
+    color: #FFF;
+    border-radius: 30px;
+    background-color: #FFA549;
+    width: 174px;
+    height: 48px;
+    margin-left: 98px; 
+    margin-top: 342px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-left: 20px; /*отступ текста */
+    padding-right: 20px;
+    overflow: hidden;
+
+}
+
+/* зелёный */
+.card1 {
+    border-radius: 30px;
+    border: solid 2px;
+    border-color: #40B145;
+    width: 370px;
+    height: 430px;
+}
+
+.card1:hover {
+    opacity: .75;
+    box-shadow: 8px 8px 10px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.cards1{
+    height: 430px;
+    width: 909px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 169px;
+
+}
+
+
+.text1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.74px;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    border-radius: 30px;
+    background-color: #40B145;
+    width: 174px;
+    height: 48px;
+    margin-left: 98px; 
+    margin-top: 342px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-left: 20px; /*отступ текста */
+    padding-right: 20px;
+    overflow: hidden;
+
+}
+
+.twopart{
+    background-color: #FFA549;
+    height: 197px;
+    margin-top: -1px;
+}
+
+.twopart_cont {
+    font-size: 16px;
+    font-weight: 400;
+    width: 1138px;
+    margin: 0 auto;
+    color: #FFF3D4;
+    padding-top: 40px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.l1:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.right {
+    text-align: right;
+}
+
+/* pagination */
+.pag{
+    /* прижать футер к низу */
+    margin-bottom: 110px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: #545454;
+    
+   
+}
+
+.cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cont ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 49px;
+    cursor: pointer;
+
+}
+
+ul li.active {
+    color: #545454;
+    background-color: #DAFCB9;
+    background-repeat: no-repeat;
+
+}
+
+.b1,.b2 {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.b1 img{
+    /* width: 45px; */
+    transform: rotate(180deg);
+
+}
+.b2 img{
+    /* width: 45px; */
+}

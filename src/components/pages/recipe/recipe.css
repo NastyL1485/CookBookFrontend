@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+
+html{
+    box-sizing:border-box;
+    height: 100%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF3D4; 
+}
+
+
+
+/*maim*/
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.intro{
+    background-size: 100%;
+    padding-top: 133px;    
+}
+
+.cont {
+    margin-bottom: 60px;
+    height: 470px;
+    width: 1168px;
+
+}
+
+.photo{
+    width: 669px;
+    height: 454px;
+    margin-top: 22px;
+    background-color: #FFF;
+    float: left;
+    margin-right: 70px;
+    border-radius: 30px;
+}
+
+.intro_title{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48.92px;
+    color: #FFA549;
+    margin-bottom: 20px;
+    
+}
+
+.ingr-field{
+    background-color: #FFF3D4;
+    max-width: 429px;
+    max-height: 368px;
+    height: 100px;
+    line-height: 33.97px;
+    border-left: 2px solid #FFA549 ;
+    margin-bottom: 200px;
+    padding-left: 20px; /*отступ текста */
+    float: left;
+
+}
+
+
+.cooking_title{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48.92px;
+    color: #FFA549;
+    margin-bottom: 60px;    
+}
+
+
+.cooking-field{
+    background-color: #FFF3D4;
+    border-radius: 30px;
+    max-width: 1170px;
+    max-height: 368px;
+    height: 368px;
+    overflow-y: auto;
+    line-height: 33.97px;
+    border: solid 2px;
+    border-color: #FFA549; 
+    margin-bottom: 60px;
+    padding-left: 20px; /*отступ текста */
+    padding-right: 20px;
+}
+
+.cooking-field::-webkit-scrollbar{
+    width: 3px;
+    height: 50px;
+    right: 3px;
+}
+
+
+.comment_title{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48.92px;
+    color: #FFA549;
+    margin-bottom: 60px;
+}
+
+.comment-field{
+    background-color:#DAFCB9;
+    border-radius: 30px;
+    width: 970px;
+    height: 278px; 
+    height: 278px;
+    line-height: 21.74px;
+    margin-bottom: 60px; 
+    overflow: hidden; /*прячет то, что выходит за границу*/
+    padding-left: 20px; /*отступ текста */
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.74px;
+    letter-spacing: 1px;
+    color: #545454;
+}
+.comment-field1 {
+    margin-left: 50px;
+    padding-top: 5px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.comment-field2 {
+    margin-left: 50px;
+    width: 820px;
+    height: 200px;
+}
+.field {
+    width: 500px;
+    height: 30px;
+}
+
+.twopart{
+    background-color: #FFA549;
+    height: 197px;
+    margin-top: -1px;
+}
+
+.twopart_cont {
+    font-size: 16px;
+    font-weight: 400;
+    width: 1138px;
+    margin: 0 auto;
+    color: #FFF3D4;
+    padding-top: 40px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.l1:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.right {
+    text-align: right;
+}
+
+
+.intro {
+    /* прижать футер к низу */
+    min-height: calc(100vh - 197px); 
+}
+
+
+.comm{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 48.92px;
+    color: #FFA549;
+    margin-bottom: 60px;
+    
+}
+.comm-field{
+    background-color: #FFF3D4;
+    width: 350px;
+    height: 48px;
+    border-radius: 30px;
+    border: 2px solid #FFA549 ;
+    padding-left: 10px; /*отступ текста */
+    padding-right: 10px;
+}
+
+.input-button {
+    background-color: #FFA549;
+    border-radius: 30px;
+    color: #FFF3D4;
+    border: 2px solid #FFA549;
+    height: 48px;
+    
+}
+::placeholder {
+    color: #545454;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    opacity: .3;
+        
+    padding-left: 25px;
+}
+
+.input-button:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+.p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    opacity: .75;
+    text-align: center;
+
+}
+
+/*maim end*/
+
